@@ -31,7 +31,7 @@ userSchema.pre("save", function (next) {
         next();
       }
     });
-  });s
+  });
 });
 
 userSchema.methods.comparePassword = function (candidatePassword) {
